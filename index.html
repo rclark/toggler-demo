@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+    <head>
+        <script src="UnfinishedToggler.js"></script>
+    </head>
+    <body>
+        <p>Build it:</p>
+        <p><code>browserify src/unfinishedToggler.js -o ./UnfinishedToggler.js</code></p>
+        <p>Have a look at the console...</p>
+        <script>
+            console.log('> var toggler = UnfinishedToggler();');
+            var toggler = UnfinishedToggler();
+            console.log('> toggler.oneMethod();');
+            toggler.oneMethod();
+            console.log('> toggler.anotherMethod();');
+            toggler.anotherMethod();
+        </script>
+    </body>
+</html>
